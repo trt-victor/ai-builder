@@ -1,0 +1,7 @@
+{
+  "name": "ai-builder",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node server.js", "test": "node --test", "skill": "node skills/build-skill.js" },
+  "dependencies": { "@anthropic-ai/sdk": "*", "@electric-sql/pglite": "^0.2.0", "pg": "^8.11.0" }
+}
